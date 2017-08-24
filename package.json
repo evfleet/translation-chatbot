@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "node-fetch": "^1.7.2",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-css-modules": "^4.7.1",
     "react-dom": "^15.6.1"
