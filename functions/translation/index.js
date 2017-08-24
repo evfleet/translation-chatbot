@@ -18,11 +18,7 @@ export default async (event, context, callback) => {
         }),
       }).then((r) => r.json());
 
-      if (translations.length != 0) {
-        response = translations[0].translatedText;
-      } else {
-        response = 'Sorry, we couldn\'t translate this.'
-      }
+      response = translations[0].translatedText; 
     } else {
       response = 'The service does not support this language.';
     }

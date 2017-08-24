@@ -8,7 +8,7 @@
   "runtime": "nodejs6.10",
   "handler": "lib.default",
   "hooks": {
-    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.functions.js --bail",
+    "build": "../../node_modules/.bin/webpack --config ../../webpack/lambda.config.functions.js --bail",
     "clean": "rm -fr lib"
   }
 }
