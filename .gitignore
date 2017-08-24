@@ -9,5 +9,6 @@ npm-debug.log
 yarn-error.log
 
 # app code
-config/constants.js
+build
 project.json
+config/constants.js
